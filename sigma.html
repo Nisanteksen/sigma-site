@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="sigma.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  <title>sigma</title>
+</head>
+<body>
+
+  <div class="navbar  ">
+
+    <div class="navbar__content">
+      <div class="navbar__content__heading">
+        <img src="SIK KULLANILAN GRAFIKLER/SIGMA LOGO.png">
+      </div>
+      
+      <div class="navbar__content__nav">
+        <ul class="navbar__content__nav__list">
+          <li class="navbar__content__nav__list__item"><a href="#about">HAKKIMIZDA</a></li>
+          <li class="navbar__content__nav__list__item"><a href="#project">PROJELERİMİZ</a></li>
+          <li class="navbar__content__nav__list__item"><a href="#timeline">TIMELINE</a></li>
+          <li class="navbar__content__nav__list__item"><a href="#team">TAKIM</a></li>
+          <li class="navbar__content__nav__list__item"><a href="#contact">İLETİŞİM</a></li>
+        </ul>
+      </div>
+
+      <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span>
+            <span></span>
+          </span>
+        </label>
+    
+        <ul class="menu__box">
+          <li><a class="menu__item" href="#about">HAKKIMIZDA</a></li>
+          <li><a class="menu__item" href="#project">PROJELERİMİZ</a></li>
+          <li><a class="menu__item" href="#team">TAKIM</a></li>
+          <li><a class="menu__item" href="#timeline">TIMELINE</a></li>
+          <li><a class="menu__item" href="#contact">İLETİŞİM</a></li>
+        </ul>
+      </div>
+
+      
+    </div>
+  
+  </div>
+
+  <section class="intro">
+      <div class="intro__text">
+        <h3>Yıldız Teknik Üniversitesinin En Köklü Havacılık Takımı</h3>
+        <h2>SIGMA AERONAUTICS</h2>
+      </div> 
+
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about__content container">
+
+      <div class="about__content__heading">
+        <h2>HAKKIMIZDA</h2>
+      </div>
+      
+      <div class="about__content__text__def">
+        <img src="Rectangle (1).png">
+        <p>YTU Sigma Aeronautics, Yıldız Teknik Üniversitesi bünyesinde 2012 yılında İnsansız
+        Hava Aracı takımı olarak kurulup, 2019 yılında Sigma Aeronautics ismini alarak hem
+        İnsansız Hava Aracı tasarlayan hem de ülkemiz havacılığında akademik ve
+        endüstriyel çalışmalar yapan genel bir havacılık takımı olma adımı atmıştır. Bu
+        doğrultuda her sene düzenli olarak, ABD’de gerçekleştirilen AIAA DBF
+        (Design, Build and Fly) ve ülkemizde gerçekleştirilen Teknofest TÜBİTAK İHA
+        yarışmasına katılmaktayız. Bu faaliyetlerin yanında TÜBİTAK projeleri, jet motor
+        tasarımı gibi ek projelerimizi de sürdürmekteyiz.</p>
+      </div>
+      <div class="about__content__text">
+
+        <div class="about__content__text__item">
+          <img src="SIK KULLANILAN GRAFIKLER/MISYON LOGO.png">
+          <h3>MİSYON</h3>
+          <p>
+            Teorik bilgiyi pratiğe dökme esasıyla gerçek bir mühendislik deneyimi yaşamak ve geleceğin havacılık teknolojilerine ülkemiz adına yön vermeye istekli YTÜ öğrencileri için ilk adımı atmak.
+            </p>
+        </div>
+
+
+        <div class="about__content__text__item">
+          <img src="SIK KULLANILAN GRAFIKLER/VIZYON LOGO.png ">
+          <h3>VİZYON</h3>
+          <p>
+            Artan bir ivme ile gelişmekte olan havacılık teknolojileri içerisinde , Yıldız Teknik Üniversitesi’nin ülkemizde bu gelişime hız ve değer katan bir pozisyonda yer alması. 
+            </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="project" id="project">
+    <div class="project__content container">
+
+        <div class="project__content__heading">
+            <h2>PROJELERİMİZ</h2>
+        </div>
+
+        <div class="project__content__cards">
+
+            <div class="project__content__cards__row">
+
+                <div class="project__content__cards__row__item" id="card1">
+                    <img src="img-ucaklar/GOKCEN v1 (1).png">
+                    <p>GÖKÇEN</p>
+                </div>
+
+                <div class="project__content__cards__row__overlay" id="fullscreen1" onclick="closeFullscreen(1)">
+                    <div class="project__content__cards__row__overlay__text">
+                        <h3>GÖKÇEN</h3>
+                        <p>Yıldız Teknik Üniversitesinin ilk insansız hava aracı 
+                        </p>
+                        <li>1,74 m Kanat açıklığı 
+                        </li>
+                        <li>4,25 kg Ağırlık
+                        </li>
+                        <li>30 m/sn Seyir hızı
+                        </li>
+                        <li>Tam otonom uçuş 
+                        </li>
+                        <li>Görüntü işleme ve alan tesliiti
+                        </li>
+                        <li>Otomatik varış noktası belirleme
+                        </li>
+                        <li>Faydalı yük taşıma ve bırakma
+                        </li>
+                    </div>
+                </div>
+                
+                <div class="project__content__cards__row__item" id="card2">
+                    <img src="img-ucaklar/VECIHI_15 v2.png">
+                    <p>VECİHİ </p>
+                </div>
+
+                <div class="project__content__cards__row__overlay" id="fullscreen2" onclick="closeFullscreen(2)">
+                    <div class="project__content__cards__row__overlay__text">
+                        <h3>VECİHİ</h3>
+                        <li>1,65 m Kanat açıklığı 
+                        </li>
+                        <li>6 kg Ağırlık
+                        </li>
+                        <li>22 m/sn Seyir hızı
+                        </li>
+                        <li>Tam otonom uçuş 
+                        </li>
+                        <li>Görüntü işleme ve alan tesliiti
+                        </li>
+                        <li>Otomatik varış noktası belirleme
+                        </li>
+                        <li>Faydalı yük taşıma ve bırakma
+                        </li>
+                    </div>
+                </div>
+                
+                <div class="project__content__cards__row__item" id="card3">
+                    <img src="img-ucaklar/HEZARFEN_16 v1.png">
+                    <p>HEZARFEN</p>
+                </div>
+
+                <div class="project__content__cards__row__overlay" id="fullscreen3" onclick="closeFullscreen(3)">
+                    <div class="project__content__cards__row__overlay__text">
+                        <h3>HEZARFEN</h3>
+                        <li>1,6 m Kanat açıklığı 
+                        </li>
+                        <li>4 kg Ağırlık
+                        </li>
+                        <li>20 m/sn Seyir hızı
+                        </li>
+                        <li>Tam otonom uçuş 
+                        </li>
+                        <li>Görüntü işleme ve alan tesliiti
+                        </li>
+                        <li>Otomatik varış noktası belirleme
+                        </li>
+                        <li>Faydalı yük taşıma ve bırakma
+                        </li>
+                    </div>
+                </div>
+                
+                <div class="project__content__cards__row__item" id="card4">
+                    <img src="img-ucaklar/DBF_UCAK_RAPOR_YUZEY v4.png">
+                    <p>SGM-22</p>
+                </div>
+
+                <div class="project__content__cards__row__overlay" id="fullscreen4" onclick="closeFullscreen(4)">
+                    <div class="project__content__cards__row__overlay__text">
+                        <h3>SGM-22</h3>
+                        <p>2022 DBF yarışması için ürettiğimiz aracımız ön eleme raporunda 127 takım arasında 38. olarak, detaylı tasarım raporunda 97 takım arasından 32. olarak yarışmaya katılmaya hak kazanmıştır.
+                        </p>
+                        <li>1,6 m Kanat açıklığı 
+                        </li>
+                        <li>5 kg Ağırlık
+                        </li>
+                        <li>24 m/sn Seyir hızı
+                        </li>
+                        <li>30 dk uçuş süresi</li>
+                        <li>2 kg yük kapasitesi
+                        </li>
+                        <li>Geniş iç hacim
+                        </li>
+                        <li>Uzaktan kontrollü yük bırakma sistemi
+                        </li>
+                        <li>Hassas medikal ve tıbbi ürünler taşıma
+                        </li>
+                    </div>
+                </div>
+                
+                <div class="project__content__cards__row__item" id="card5">
+                    <img src="img-ucaklar/VEGA_2022_FINAL v6.png">
+                    <p>SVG-22</p>
+                </div>
+
+                <div class="project__content__cards__row__overlay" id="fullscreen5" onclick="closeFullscreen(5)">
+                    <div class="project__content__cards__row__overlay__text">
+                        <h3>SVG-22</h3>
+                        <p>2022 Teknofest Uluslararası İHA yarışması için ürettiğimiz aracımız tüm rapor aşamalarını başarıyla tamamlayarak uçuşa hak kazanan finalist takımlar arasında yerini almıştır. 
+                        </p>
+                        <li>1,4 m Kanat açıklığı 
+                        </li>
+                        <li>2,5 kg Ağırlık
+                        </li>
+                        <li>18 m/sn Seyir hızı
+                        </li>
+                        <li>Tam otonom uçuş 
+                        </li>
+                        <li>Görüntü işleme ve alan tespiti
+                        </li>
+                        <li>Otomatik varış noktası belirleme
+                        </li>
+                        <li>Faydalı yük taşıma ve bırakma
+                        </li>
+                    </div>
+                </div>
+                
+                <div class="project__content__cards__row__item" id="card6">
+                    <img src="img-ucaklar/SIGMA_DRONE v5.png">
+                    <p>SKYRIDER</p>
+                </div>
+
+                <div class="project__content__cards__row__overlay" id="fullscreen6" onclick="closeFullscreen(6)">
+                    <div class="project__content__cards__row__overlay__text">
+                        <h3>SKYRIDER</h3>
+                        <p>Takımımızın daha önce döner kanat İHA sistemi üzerine çalışması olmadığı için bu alanda know-how oluşturmak amacıyla çalışmalara başladık.
+                        Aynı zamanda VTOL araçlarımızın uçuş kontrolünü bu proje sayesinde geliştirdik.
+                        </p>
+                        <li>Görüntü işleme ve alan tespiti
+                        </li>
+                        <li>Otomatik varış noktası belirleme
+                        </li>
+                        <li>Faydalı yük taşıma ve bırakma
+                        </li>
+                    </div>
+                </div>
+                
+                <div class="project__content__cards__row__item" id="card7">
+                    <img src="img-ucaklar/TEST_VTOL v1.png">
+                    <p>VTOL</p>
+                </div>
+
+                <div class="project__content__cards__row__overlay" id="fullscreen7" onclick="closeFullscreen(7)">
+                    <div class="project__content__cards__row__overlay__text">
+                        <h3>VTOL</h3>
+                        <li>1,6 m Kanat açıklığı 
+                        </li>
+                        <li>3 kg Ağırlık
+                        </li>
+                        <li>20 m/sn Seyir hızı
+                        </li>
+                        <li>Tam otonom uçuş 
+                        </li>
+                        <li>Görüntü işleme ile alan ve yük tespiti
+                        </li>
+                        <li>Otomatik varış noktası belirleme
+                        </li>
+                        <li>Otonom yük alıp bırakma
+                        </li>
+                        <li>Dikey iniş kalkış
+                        </li>
+                    </div>
+                </div>
+                
+                <div class="project__content__cards__row__item" id="card8">
+                    <img src="img-ucaklar/SERBEST_22 v6.png">
+                    <p>BOMBUS</p>
+                </div>
+
+                <div class="project__content__cards__row__overlay" id="fullscreen8" onclick="closeFullscreen(8)">
+                    <div class="project__content__cards__row__overlay__text">
+                        <h3>BOMBUS</h3>
+                        <li>2,4 m Kanat açıklığı 
+                        </li>
+                        <li>6 kg Ağırlık
+                        </li>
+                        <li>24 m/sn Seyir hızı
+                        </li>
+                        <li>Tam otonom uçuş 
+                        </li>
+                        <li>Görüntü işleme ve alan tespiti
+                        </li>
+                        <li>Otomatik varış noktası belirleme
+                        </li>
+                        <li>Uzaktan kontrollü yük bırakma sistemi
+                        </li>
+                        <li>Hassas medikal ve tıbbi ürünler taşıma
+                        </li>
+                        <li>Dikey iniş kalkış
+                        </li>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <section class="timeline  " id="timeline">
+    
+    <div class="timeline__heading">
+      <h2>TIMELINE</h2>
+    </div>
+    <div class="timeline__content">
+
+      <div class="box left">
+        <div class="box-img">
+          <img src="img-ucaklar/1.png" class="imgleft"> 
+        </div>
+        <div class="content l">
+          <h3>2012</h3>
+          <p>2012 yılında kurulduk. 2012-2013 yarışmasını
+            altyapı çalışmaları oluşturma açısından,
+            yaptığımız gözlemlerle herhangi bir yarışmaya
+            katılma amacı gütmeden ‘GÖKÇEN’i
+            tasarlayıp,ürettik.</p>
+        </div>
+      </div>
+  
+      <div class="box right">
+        <div class="box-img">
+          <img src="img-ucaklar/2.png" class="imgright"> 
+        </div>
+        <div class="content r">
+          <h3>2014</h3>
+          <p>Kazandığımız tecrübe ve birikimlerimizle,
+            2014’te DBF yarışmasına “DEMİRAĞ-14” adlı
+            uçağımız ile katıldık.</p>
+        </div>
+      </div>
+  
+      <div class="box left">
+        <div class="box-img">
+          <img src="img-ucaklar/3.png" class="imgleft"> 
+        </div>
+        <div class="content l">
+          <h3>2015</h3>
+          <p>İkinci kez 2015 yılında katıldığımız DBF yarışmasında
+            mühendislik yeteneklerimizi geliştirmek ve yeni
+            tecrübeleer kazaanmak amacı ile karbon fiber kabuğa
+            sahip olan “VECİHİ-15” i tasarladık. Ve yarışma
+            sonucunda dünya çapındaki üniversiteler arasında uçuş
+            alnanında 8. olduk.</p>
+        </div>
+      </div>
+  
+      <div class="box right">
+        <div class="box-img">
+          <img src="img-ucaklar/A (2) 1.png" class="imgright">
+        </div>
+        <div class="content r">
+          <h3>2016</h3>
+          <p>Ülkemizde 2016’da TÜBİTAK tarafından
+            düzenlenen TÜBİTAK İHA adlı yarışmaya
+            ‘HAZERFEN-16’ adlı uçağımızı tasarlayıp, üretimini
+            gerçekleştirerek katıldık. Yarışmada Detaylı
+            Tasarım Raporumuz ile 100 uluslararası üniversite
+            arasında 2.lik kazandık.</p>
+        </div>
+      </div>
+  
+      <div class="box left">
+        <div class="box-img">
+          <img src="img-ucaklar/A (5) 1.png" class="imgleft"> 
+        </div>
+        <div class="content l">
+          <h3>2017</h3>
+          <p>2017 yılındaki yarışmada ise ‘CEVHERİ-17’ adlı
+            uçağımız ile Türkiye’den finale katılmaya hak
+            kazanan tek Teknik Üniversite olmanın gururunu
+            yaşadık.</p>
+        </div>
+      </div>
+  
+      <div class="box right">
+        <div class="box-img">
+          <img src="img-ucaklar/A (6) 1.png" class="imgright">
+        </div>
+        <div class="content r">
+          <h3>2018</h3>
+          <p>“GÖKMEN-18” isimli uçağımızın üretim sürecinde,
+            karbon fiber kompozit ile kalıpta üretim gibi imalat
+            yöntemleri konularında çok ciddi tecrübeler kazanılmış
+            olup, uçağımız tam kaplama kompozit karbon fiber
+            yüzeyi ve detaylı tasarımı, analizi ile yarışma alanında
+            ilgi odağı oldu.</p>
+        </div>
+      </div>
+  
+      <div class="box left">
+        <div class="box-img">
+          <img src="img-ucaklar/A (7) 1.png" class="imgleft"> 
+        </div>
+        <div class="content l">
+          <h3>2019</h3>
+          <p>Bu yıl da TÜBİTAK UAV Turkey’de teknik
+            anlamda sene içerisinde sıfırdan eğittiğimiz
+            ekibimiz tarafından tasarlanıp,analizlerini ve
+            üreitmini gerçekleştirip yaz boyu test uçuşlarını
+            yaptığımız HÜRKUŞ’19 ile “Sabit Kanat”
+            kategorisinde, Kavramsal Tasarım Raporu 1.’si,
+            Detaylı Tasarım Raporu 2.’si olduk.</p>
+        </div>
+      </div>
+  
+      <div class="box right">
+        <div class="box-img">
+          <img src="img-ucaklar/A (8) 1.png" class="imgright">
+        </div>
+        <div class="content r">
+          <h3>2020</h3>
+          <p>2020 TÜBİTAK İHA yarışması için “SBN-20”
+            isimli aracımızı tasarladık. Aracımızın
+            gövdesini kendi atölyemizde el yatırma
+            yöntemi kullanarak karbon fiberden ürettik.</p>
+        </div>
+      </div>
+  
+      <div class="box left">
+        <div class="box-img">
+          <img src="img-ucaklar/A (9) 1.png" class="imgleft"> 
+        </div>
+        <div class="content l">
+          <h3>2021</h3>
+          <p>2021 Yılı için tasarlayıp ürettiğimiz test
+            uçağımız Sigma-21. Bu aracımızda daha
+            önceki üretim yöntemlerimizden farklı olarak
+            ekleme imalat yöntemini kullandık. Aynı
+            zamanda otonom uçuş testleri gerçekleştirdik.</p>
+        </div>
+      </div>
+  
+      <div class="box right">
+        <div class="box-img">
+          <img src="img-ucaklar/A (10) 1.png" class="imgright"> 
+        </div>
+        <div class="content r">
+          <h3>2022</h3>
+          <p>2022 DBF yarışması için ürettiğimiz aracımız ön
+            eleme raporunda 127 takım arasında 38. olarak,
+            detaylı tasarım raporunda 97 takım arasından 32.
+            olarak yarışmaya katılmaya hak kazandı. Aynı
+            zamanda yarışmaya Türkiye’den katılan takımlar
+            arasından en yüksek rapor puanına sahip takım
+            olduk. </p>
+        </div>
+      </div>
+  
+      <div class="box left">  
+        <div class="box-img"> 
+        <img src="img-ucaklar/SERBEST_22 v6.png" class="imgleft"> 
+
+        </div >
+        <div class="content l">
+          <h3>2023</h3>
+          <p> 2023 yılında konseptimizi değiştirerek
+            farklı hava aracı konseptlerine yöneldik.
+            Bu amaçla ilk olarak VTOL ( Vertical take
+            off and landing) aracımızın tasarımını ve
+            üretimini yaptık.</p>
+          </div>
+        </div>  
+  
+    </div>
+  </section>
+  
+  <section class="team" id="team">
+    <div class="team__content container">
+      <div class="team__content__heading">
+        <h2>TAKIM</h2>
+      </div>
+      <div class="team__content__text">
+
+        <div class="team__content__text__item">
+          <img src="img-ucaklar/luci.jpg" class="team__content__text__item__img">
+            <h3 >
+              Miron Khoruzhenko
+            </h3>
+          <span>Otonom-Yazılım Ekip Lideri</span>
+          <div class="team__content__text__item__icons">
+
+            <div class="team__content__text__item__icons__box">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="team__content__text__item__icons__box">
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="team__content__text__item">
+          <img src="img-ucaklar/luci.jpg" class="team__content__text__item__img">
+          <h3>Yusuf Karakaş</h3>
+          <span>Takım Lideri</span>
+          <div class="team__content__text__item__icons">
+            <div class="team__content__text__item__icons__box">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="team__content__text__item__icons__box">
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+          </div>
+        </div>
+        
+        <div class="team__content__text__item">
+          <img src="img-ucaklar/luci.jpg" class="team__content__text__item__img">
+          <h3>Akın Karahan</h3>
+          <span>Aeromekanik Ekip Lideri</span>
+          <div class="team__content__text__item__icons">
+            <div class="team__content__text__item__icons__box">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="team__content__text__item__icons__box">
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="contact " id="contact ">
+    <div class="container">
+
+      <h2 class="contact__heading">İLETİŞİM</h2>
+      <div class="contact__content ">
+  
+        <div class="contact__content__form">
+          
+          <div class="contact__content__form__item">
+  
+            <input type="text" required placeholder="Adınız Soyadınız" class="contact__content__form__item__text">
+            <input type="email" required placeholder="E-Posta Adresiniz" class="contact__content__form__item__text">
+            <input type="text" required placeholder="Konu" class="contact__content__form__item__text" >
+  
+          </div>
+  
+          <div class="contact__content__form__textarea">
+            <textarea placeholder="Mesajı Buraya Yazın" class="contact__content__form__textarea__text"></textarea>
+          </div>
+          
+          <button class="contact__content__form__button">
+            Mesajı Gönder
+          </button>
+        </div>
+  
+        <div class="contact__content__info">
+          <ul class="contact__content__info__text">
+            <li>
+              <h3>Takım Danışmanı</h3>
+              
+              <span>
+                Alp Tekin ERGENÇ
+              </span>
+
+              <span>
+                +90 212 383 2835
+              </span>
+
+              <span>
+                aergenc@yildiz.edu.tr
+              </span>
+            </li>
+
+            <li>
+              <h3>Takım Danışmanı</h3>
+              <span>Özden Ağra
+              </span>
+              <span>
+                oagra@yildiz.edu.tr
+              </span>
+            </li>
+            <li>
+              <h3>Takım Lideri
+              </h3>
+              <span>Yusuf KARAKAŞ
+              </span>
+              <span>+90 546 424 71 39</span>
+              <span>karakassyusuf8@gmail.com</span>
+            </li>
+            <li>
+              <h3>YTU Sigma Aeronautics
+              </h3>
+              <span>Yıldız Teknik Üniversitesi, R Blok, 34349 Yıldız / Beşiktaş / İstanbul 
+              </span>
+              <span>ytusigmaaeronautics@gmail.com
+              </span>
+            </li>
+            
+          </ul>
+        </div>
+    </div>
+
+    </div>
+    <div class="contact__footer">
+      <div class="contact__footer__border"></div>
+      <p>COPYRIGHT © 2022 EDU MEETING CO., LTD. ALL RIGHTS RESERVED. <br></p>
+      DESIGN: Nisan Tekşen
+    </div>
+
+
+  </section>
+
+  <script src="sigma.js"></script>
+
+</body>
+</html>
